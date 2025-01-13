@@ -178,6 +178,20 @@ playwright install
    docker compose down
    ```
 
+## Example
+
+- Example
+Task Description:
+go to Google Map, search the route from "Shinjuku Station" to "Haneda Airport", and report the most efficient (least time) option
+
+- Example
+Task Description:
+go to Google News, find the top news under "World" tab showing the hottest news in the world, click the news title, read its content, and report the summary of that news.
+
+- Example
+Task Description:
+go to Google News, find the top news under "World" tab showing the hottest news in the world, click the news title, read its content, and report the summary of that news.
+
 ## Changelog
 
 - [x] **2025/01/10:** Thanks to @casistack. Now we have Docker Setup option and also Support keep browser open between tasks.[Video tutorial demo](https://github.com/browser-use/web-ui/issues/1#issuecomment-2582511750).

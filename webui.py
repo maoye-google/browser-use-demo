@@ -587,7 +587,7 @@ def create_ui(theme_name="Ocean"):
                     label="Additional Information",
                     lines=3,
                     placeholder="Add any helpful context or instructions...",
-                    value="If you cannot find 'Google Search' Button, please try the Enter Key instead",
+                    value="If you cannot find 'Search' Button, please try the Enter Key instead. And if you see web page language selection menu, please use English by default.",
                     info="Optional hints to help the LLM complete the task"
                 )
 
