@@ -180,18 +180,15 @@ playwright install
 
 ## Example
 
-- Example
--- Task Description:
+- Example Task Description:
 
 go to Google Map, search the route from "Shinjuku Station" to "Haneda Airport", and report the most efficient (least time) option
 
-- Example
--- Task Description:
+- Example Task Description:
 
 go to Google News, find the top news under "World" tab showing the hottest news in the world, click the news title, read its content, and report the summary of that news.
 
-- Example
--- Task Description:
+- Example Task Description:
 
 go to Google Finance, find the stock price of Google ($GOOG), summarize its performance in the last 1 year, and compare it with Microsoft ($MSFT). Generate the comparison result like financial report.
 
