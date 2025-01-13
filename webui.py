@@ -580,15 +580,15 @@ def create_ui(theme_name="Ocean"):
                     label="Task Description",
                     lines=4,
                     placeholder="Enter your task here...",
-                    value="go to google.com and type 'Agentic AI' click search and give me the first url",
-                    info="Describe what you want the agent to do",
+                    value="go to google.com and type 'Agentic AI' and then click search and give me the first url",
+                    info="Describe what you want the agent to do"
                 )
                 add_infos = gr.Textbox(
                     label="Additional Information",
                     lines=3,
                     placeholder="Add any helpful context or instructions...",
-                    value-"If you cannot find 'Google Search' Button, please try the Enter Key instead"
-                    info="Optional hints to help the LLM complete the task",
+                    value="If you cannot find 'Google Search' Button, please try the Enter Key instead",
+                    info="Optional hints to help the LLM complete the task"
                 )
 
                 with gr.Row():
