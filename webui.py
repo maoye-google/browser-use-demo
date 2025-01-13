@@ -486,13 +486,13 @@ def create_ui(theme_name="Ocean"):
                     llm_provider = gr.Dropdown(
                         choices=[provider for provider,model in utils.model_names.items()],
                         label="LLM Provider",
-                        value="openai",
+                        value="gemini",
                         info="Select your preferred language model provider"
                     )
                     llm_model_name = gr.Dropdown(
                         label="Model Name",
-                        choices=utils.model_names['openai'],
-                        value="gpt-4o",
+                        choices=utils.model_names['gemini'],
+                        value="gemini-2.0-flash-exp",
                         interactive=True,
                         allow_custom_value=True,  # Allow users to input custom model names
                         info="Select a model from the dropdown or type a custom model name"
@@ -580,13 +580,14 @@ def create_ui(theme_name="Ocean"):
                     label="Task Description",
                     lines=4,
                     placeholder="Enter your task here...",
-                    value="go to google.com and type 'OpenAI' click search and give me the first url",
+                    value="go to google.com and type 'Agentic AI' click search and give me the first url",
                     info="Describe what you want the agent to do",
                 )
                 add_infos = gr.Textbox(
                     label="Additional Information",
                     lines=3,
                     placeholder="Add any helpful context or instructions...",
+                    value-"If you cannot find 'Google Search' Button, please try the Enter Key instead"
                     info="Optional hints to help the LLM complete the task",
                 )
 
