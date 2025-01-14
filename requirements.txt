@@ -1,6 +1,6 @@
-browser-use>=0.1.18
+browser-use==0.1.19
 langchain-google-genai>=2.0.8
 pyperclip
 gradio
 langchain-ollama
-
+lxml_html_clean
