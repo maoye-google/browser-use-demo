@@ -32,25 +32,25 @@ Read the [quickstart guide](https://docs.browser-use.com/quickstart#prepare-the-
 First, we recommend using [uv](https://docs.astral.sh/uv/) to setup the Python environment.
 
 ```bash
-uv venv --python 3.11
+python3 -m virtualenv venv
 ```
 
 and activate it with:
 
 ```bash
-source .venv/bin/activate
+source venv/bin/activate
 ```
 
 Install the dependencies:
 
 ```bash
-uv pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 Then install playwright:
 
 ```bash
-playwright install
+playwright install --with-deps
 ```
 
 ### Option 2: Docker Installation
@@ -186,7 +186,7 @@ go to Google Map, search the route from "Shinjuku Station" to "Haneda Airport", 
 
 - Example Task Description:
 
-go to Google News, find the top news under "World" tab showing the hottest news in the world, click the news title, read its content, and report the summary of that news.
+go to Google News, find the top news under "World" tab, report the summary of top 3 news, with their summary, sources, and published time in table format.
 
 - Example Task Description:
 
